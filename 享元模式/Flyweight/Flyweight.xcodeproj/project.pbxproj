@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC47C86820BE753600185511 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C86720BE753600185511 /* AppDelegate.m */; };
+		FC47C86B20BE753600185511 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C86A20BE753600185511 /* ViewController.m */; };
+		FC47C86E20BE753600185511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC47C86C20BE753600185511 /* Main.storyboard */; };
+		FC47C87020BE753800185511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC47C86F20BE753800185511 /* Assets.xcassets */; };
+		FC47C87320BE753800185511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC47C87120BE753800185511 /* LaunchScreen.storyboard */; };
+		FC47C87620BE753800185511 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C87520BE753800185511 /* main.m */; };
+		FC47C88020BE753800185511 /* FlyweightUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C87F20BE753800185511 /* FlyweightUITests.m */; };
+		FC47C88F20BE755900185511 /* FlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C88C20BE755900185511 /* FlowerFactory.m */; };
+		FC47C89020BE755900185511 /* FlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C88E20BE755900185511 /* FlowerView.m */; };
+		FC47C89420BE758400185511 /* FlyweightView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C89220BE758400185511 /* FlyweightView.m */; };
+		FC47C89720BE79FC00185511 /* ExtrinsicFlowerState.m in Sources */ = {isa = PBXBuildFile; fileRef = FC47C89620BE79FC00185511 /* ExtrinsicFlowerState.m */; };
+		FC47C89F20BE7B4E00185511 /* cosmos.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89920BE7B4E00185511 /* cosmos.png */; };
+		FC47C8A020BE7B4E00185511 /* gerberas.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89A20BE7B4E00185511 /* gerberas.png */; };
+		FC47C8A120BE7B4E00185511 /* zinnia.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89B20BE7B4E00185511 /* zinnia.png */; };
+		FC47C8A220BE7B4E00185511 /* jasmine.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89C20BE7B4E00185511 /* jasmine.png */; };
+		FC47C8A320BE7B4E00185511 /* hollyhock.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89D20BE7B4E00185511 /* hollyhock.png */; };
+		FC47C8A420BE7B4E00185511 /* anemone.png in Resources */ = {isa = PBXBuildFile; fileRef = FC47C89E20BE7B4E00185511 /* anemone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC47C87C20BE753800185511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC47C85B20BE753600185511 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC47C86220BE753600185511;
+			remoteInfo = Flyweight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC47C86320BE753600185511 /* Flyweight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flyweight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC47C86620BE753600185511 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC47C86720BE753600185511 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC47C86920BE753600185511 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC47C86A20BE753600185511 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC47C86D20BE753600185511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC47C86F20BE753800185511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC47C87220BE753800185511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC47C87420BE753800185511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC47C87520BE753800185511 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC47C87B20BE753800185511 /* FlyweightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyweightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC47C87F20BE753800185511 /* FlyweightUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyweightUITests.m; sourceTree = "<group>"; };
+		FC47C88120BE753800185511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC47C88B20BE755900185511 /* FlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerFactory.h; sourceTree = "<group>"; };
+		FC47C88C20BE755900185511 /* FlowerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerFactory.m; sourceTree = "<group>"; };
+		FC47C88D20BE755900185511 /* FlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerView.h; sourceTree = "<group>"; };
+		FC47C88E20BE755900185511 /* FlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerView.m; sourceTree = "<group>"; };
+		FC47C89120BE758400185511 /* FlyweightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightView.h; sourceTree = "<group>"; };
+		FC47C89220BE758400185511 /* FlyweightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightView.m; sourceTree = "<group>"; };
+		FC47C89520BE79FC00185511 /* ExtrinsicFlowerState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtrinsicFlowerState.h; sourceTree = "<group>"; };
+		FC47C89620BE79FC00185511 /* ExtrinsicFlowerState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtrinsicFlowerState.m; sourceTree = "<group>"; };
+		FC47C89920BE7B4E00185511 /* cosmos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cosmos.png; sourceTree = "<group>"; };
+		FC47C89A20BE7B4E00185511 /* gerberas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gerberas.png; sourceTree = "<group>"; };
+		FC47C89B20BE7B4E00185511 /* zinnia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zinnia.png; sourceTree = "<group>"; };
+		FC47C89C20BE7B4E00185511 /* jasmine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jasmine.png; sourceTree = "<group>"; };
+		FC47C89D20BE7B4E00185511 /* hollyhock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollyhock.png; sourceTree = "<group>"; };
+		FC47C89E20BE7B4E00185511 /* anemone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anemone.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC47C86020BE753600185511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47C87820BE753800185511 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC47C85A20BE753600185511 = {
+			isa = PBXGroup;
+			children = (
+				FC47C86520BE753600185511 /* Flyweight */,
+				FC47C87E20BE753800185511 /* FlyweightUITests */,
+				FC47C86420BE753600185511 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC47C86420BE753600185511 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC47C86320BE753600185511 /* Flyweight.app */,
+				FC47C87B20BE753800185511 /* FlyweightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC47C86520BE753600185511 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				FC47C89820BE7B4E00185511 /* images */,
+				FC47C88A20BE754B00185511 /* Flower Flyweights */,
+				FC47C86620BE753600185511 /* AppDelegate.h */,
+				FC47C86720BE753600185511 /* AppDelegate.m */,
+				FC47C86920BE753600185511 /* ViewController.h */,
+				FC47C86A20BE753600185511 /* ViewController.m */,
+				FC47C89120BE758400185511 /* FlyweightView.h */,
+				FC47C89220BE758400185511 /* FlyweightView.m */,
+				FC47C86C20BE753600185511 /* Main.storyboard */,
+				FC47C86F20BE753800185511 /* Assets.xcassets */,
+				FC47C87120BE753800185511 /* LaunchScreen.storyboard */,
+				FC47C87420BE753800185511 /* Info.plist */,
+				FC47C87520BE753800185511 /* main.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		FC47C87E20BE753800185511 /* FlyweightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC47C87F20BE753800185511 /* FlyweightUITests.m */,
+				FC47C88120BE753800185511 /* Info.plist */,
+			);
+			path = FlyweightUITests;
+			sourceTree = "<group>";
+		};
+		FC47C88A20BE754B00185511 /* Flower Flyweights */ = {
+			isa = PBXGroup;
+			children = (
+				FC47C88B20BE755900185511 /* FlowerFactory.h */,
+				FC47C88C20BE755900185511 /* FlowerFactory.m */,
+				FC47C88D20BE755900185511 /* FlowerView.h */,
+				FC47C88E20BE755900185511 /* FlowerView.m */,
+				FC47C89520BE79FC00185511 /* ExtrinsicFlowerState.h */,
+				FC47C89620BE79FC00185511 /* ExtrinsicFlowerState.m */,
+			);
+			path = "Flower Flyweights";
+			sourceTree = "<group>";
+		};
+		FC47C89820BE7B4E00185511 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FC47C89920BE7B4E00185511 /* cosmos.png */,
+				FC47C89A20BE7B4E00185511 /* gerberas.png */,
+				FC47C89B20BE7B4E00185511 /* zinnia.png */,
+				FC47C89C20BE7B4E00185511 /* jasmine.png */,
+				FC47C89D20BE7B4E00185511 /* hollyhock.png */,
+				FC47C89E20BE7B4E00185511 /* anemone.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC47C86220BE753600185511 /* Flyweight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47C88420BE753800185511 /* Build configuration list for PBXNativeTarget "Flyweight" */;
+			buildPhases = (
+				FC47C85F20BE753600185511 /* Sources */,
+				FC47C86020BE753600185511 /* Frameworks */,
+				FC47C86120BE753600185511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flyweight;
+			productName = Flyweight;
+			productReference = FC47C86320BE753600185511 /* Flyweight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC47C87A20BE753800185511 /* FlyweightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC47C88720BE753800185511 /* Build configuration list for PBXNativeTarget "FlyweightUITests" */;
+			buildPhases = (
+				FC47C87720BE753800185511 /* Sources */,
+				FC47C87820BE753800185511 /* Frameworks */,
+				FC47C87920BE753800185511 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC47C87D20BE753800185511 /* PBXTargetDependency */,
+			);
+			name = FlyweightUITests;
+			productName = FlyweightUITests;
+			productReference = FC47C87B20BE753800185511 /* FlyweightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC47C85B20BE753600185511 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = tiange;
+				TargetAttributes = {
+					FC47C86220BE753600185511 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					FC47C87A20BE753800185511 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = FC47C86220BE753600185511;
+					};
+				};
+			};
+			buildConfigurationList = FC47C85E20BE753600185511 /* Build configuration list for PBXProject "Flyweight" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC47C85A20BE753600185511;
+			productRefGroup = FC47C86420BE753600185511 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC47C86220BE753600185511 /* Flyweight */,
+				FC47C87A20BE753800185511 /* FlyweightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC47C86120BE753600185511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47C8A120BE7B4E00185511 /* zinnia.png in Resources */,
+				FC47C87320BE753800185511 /* LaunchScreen.storyboard in Resources */,
+				FC47C89F20BE7B4E00185511 /* cosmos.png in Resources */,
+				FC47C8A020BE7B4E00185511 /* gerberas.png in Resources */,
+				FC47C87020BE753800185511 /* Assets.xcassets in Resources */,
+				FC47C8A320BE7B4E00185511 /* hollyhock.png in Resources */,
+				FC47C8A220BE7B4E00185511 /* jasmine.png in Resources */,
+				FC47C8A420BE7B4E00185511 /* anemone.png in Resources */,
+				FC47C86E20BE753600185511 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47C87920BE753800185511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC47C85F20BE753600185511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47C86B20BE753600185511 /* ViewController.m in Sources */,
+				FC47C89720BE79FC00185511 /* ExtrinsicFlowerState.m in Sources */,
+				FC47C88F20BE755900185511 /* FlowerFactory.m in Sources */,
+				FC47C87620BE753800185511 /* main.m in Sources */,
+				FC47C89020BE755900185511 /* FlowerView.m in Sources */,
+				FC47C89420BE758400185511 /* FlyweightView.m in Sources */,
+				FC47C86820BE753600185511 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC47C87720BE753800185511 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC47C88020BE753800185511 /* FlyweightUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC47C87D20BE753800185511 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC47C86220BE753600185511 /* Flyweight */;
+			targetProxy = FC47C87C20BE753800185511 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC47C86C20BE753600185511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC47C86D20BE753600185511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC47C87120BE753800185511 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC47C87220BE753800185511 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC47C88220BE753800185511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC47C88320BE753800185511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC47C88520BE753800185511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4693Z44GKQ;
+				INFOPLIST_FILE = Flyweight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiange.Flyweight.a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC47C88620BE753800185511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4693Z44GKQ;
+				INFOPLIST_FILE = Flyweight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiange.Flyweight.a;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC47C88820BE753800185511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyweightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiange.FlyweightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flyweight;
+			};
+			name = Debug;
+		};
+		FC47C88920BE753800185511 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlyweightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiange.FlyweightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flyweight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC47C85E20BE753600185511 /* Build configuration list for PBXProject "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47C88220BE753800185511 /* Debug */,
+				FC47C88320BE753800185511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47C88420BE753800185511 /* Build configuration list for PBXNativeTarget "Flyweight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47C88520BE753800185511 /* Debug */,
+				FC47C88620BE753800185511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC47C88720BE753800185511 /* Build configuration list for PBXNativeTarget "FlyweightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC47C88820BE753800185511 /* Debug */,
+				FC47C88920BE753800185511 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC47C85B20BE753600185511 /* Project object */;
+}
